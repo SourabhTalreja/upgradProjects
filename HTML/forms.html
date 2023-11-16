@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/" method="get">
+        <table>
+            <tbody>
+                <tr>
+                    <td><label for="name">Name</label></td>
+                    <td><input type="text" name="name" id="name"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" name="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="phone">Phone No.</label></td>
+                    <td><input type="tel" name="phone" id="phone"></td>
+                </tr>
+                <tr>
+                    <td><label>Select Occupation</label></td>
+                    <td><input type="text" name="occupation" id="occupation" list="occupations"></td>
+                    <td><datalist name="occupation" id="occupations">
+                        <option value="engineer">engineer</option>
+                        <option value="doctor">doctor</option>
+                        <option value="lawyer">lawyer</option>
+                        <option value="other">other</option>
+                    </datalist></td>
+                </tr>
+                <tr style="vertical-align: top;">
+                    <td><label for="about">About you</label></td>
+                    <td><textarea name="about" id="about" cols="30" rows="6"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="checkbox" name="tnc" id="tnc">
+                        <label for="tnc">I accept terms and condition</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><button type="submit">Submit</button></td>
+                    <td><button type="reset">Reset</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>

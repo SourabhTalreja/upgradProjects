@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        background: black;
+        padding-left: 0%;
+        margin-left: 0%;
+    
+    }
+    nav>ul {
+        display: flex;
+        list-style: none;
+        gap: 0.5rem;
+        padding-left: 0px;
+        color: white;
+        padding-right: 0%;
+        margin-right: 0%;
+    }
+    nav>h1 {
+        color: white;
+    }
+    body {
+        background: grey;
+    }
+    a:hover {
+        background: blue;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    input {
+        width: 30rem;
+        height: 2rem;
+    }
+    .image-container {
+        height: 250px;
+        width: 100%;
+    }
+    div>img {
+        height: 250px;
+        width: 100%;
+        object-fit: cover;
+    }
+</style>
+
+<body>
+    <div class="image-container">
+        <img src="https://media.istockphoto.com/id/1411610324/photo/python-programming-language-computer-source-code-text-example-close-up-on-a-blue-surface.jpg?s=2048x2048&w=is&k=20&c=heMmE3B6-evrgw9oj4RR7l4sYPppTvSCjw7huuuMzfM=" alt="coding">
+    </div>
+        <nav>
+            <h1> MDN Web Doc</h1>
+            <input type="text" placeholder="Search here">
+            <ul>
+                <a href="#"><li>Refrences</li></a>
+                <a href="#"><li>Guide</li></a>
+                <a href="#"><li>MDN Plus</li></a>
+            </ul>
+        </nav>
+</body>
+</html>
